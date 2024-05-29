@@ -1,0 +1,366 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__image {
+  width: 61.1111%;
+}
+.about__image img {
+  width: 100%;
+}
+
+.about__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__subttl {
+  margin-top: 47.23px;
+}
+
+.about__text {
+  margin-top: 27px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.about__btn {
+  align-self: center;
+  display: inline-block;
+  margin-top: 81px;
+}
+
+@media screen and (min-width: 768px), print {
+  .about {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  .about__image {
+    flex: 0 0 330px;
+  }
+  .about__body {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .about__subttl {
+    margin-top: initial;
+  }
+  .about__btn {
+    align-self: initial;
+    margin-top: 48px;
+  }
+}
+@media screen and (min-width: 1080px), print {
+  .about {
+    gap: 120px;
+  }
+}
+.bg--fv {
+  height: 100vh;
+  background-image: url("../../src/img/fv.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg--service {
+  background-image: url("../../src/img/bg.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.btn-instagram {
+  background-color: #0F0F0F;
+  padding: 10px 18.98px 10px 20px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-align: left;
+  transition: background-color 0.2s;
+}
+.btn-instagram:hover {
+  background-color: #1F7BC9;
+}
+
+.btn-instagram__icon img {
+  width: 16px;
+  height: 16px;
+}
+
+.container {
+  padding-inline: 30px;
+  max-width: 1080px;
+  margin-inline: auto;
+}
+
+@media screen and (min-width: 1080px), print {
+  .container .container__p-init {
+    margin-inline: -30px;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: #EBEBEB;
+}
+
+@media screen and (min-width: 768px), print {
+  .footer {
+    height: 150px;
+  }
+}
+.head {
+  position: fixed;
+}
+
+.head__ttl {
+  line-height: 1;
+  padding-top: 25px;
+  padding-left: 30px;
+}
+
+.headline-l {
+  position: relative;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: #0F0F0F;
+}
+
+.headline-l__text {
+  display: inline-block;
+  position: relative;
+}
+.headline-l__text::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  border-top: 3px solid #1F7BC9;
+}
+
+.headline-m {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.l-about {
+  margin-top: 125px;
+  padding-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80.73px;
+}
+
+@media screen and (min-width: 768px), print {
+  .l-about {
+    margin-top: 155px;
+    padding-bottom: 138px;
+    gap: 77.5px;
+  }
+}
+.l-fv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.l-profile {
+  padding-top: 125px;
+  padding-bottom: 109px;
+  display: flex;
+  flex-direction: column;
+  gap: 60.5px;
+}
+
+@media screen and (min-width: 768px), print {
+  .l-profile {
+    padding-bottom: 150px;
+    gap: 80.5px;
+  }
+}
+.l-service {
+  padding-top: 124.75px;
+  padding-bottom: 97px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-left: calc(50vw - 50%);
+  padding-right: calc(50vw - 50%);
+}
+
+.l-service__content {
+  margin-top: 80.75px;
+}
+
+@media screen and (min-width: 768px), print {
+  .l-service {
+    padding-top: 154.75px;
+    padding-bottom: 140px;
+  }
+  .l-service__content {
+    margin-top: 79.75px;
+  }
+}
+.logo {
+  width: 19.563vw;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px), print {
+  .logo {
+    width: 10.1895vw;
+    height: 25px;
+  }
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile__ttl {
+  position: relative;
+  margin-top: 47px;
+  text-align: left;
+}
+
+.profile__birthyear {
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: -49px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+.profile__text {
+  margin-top: 66px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px), print {
+  .profile {
+    flex-direction: row;
+    align-items: initial;
+    gap: 30px;
+  }
+  .profile__portrait {
+    flex: 0 0 300px;
+    margin-top: 50px;
+  }
+  .profile__ttl {
+    margin-top: 7px;
+  }
+}
+@media screen and (min-width: 1080px), print {
+  .profile {
+    gap: 120px;
+  }
+  .profile__portrait {
+    flex: 0 0 460px;
+    margin-top: initial;
+  }
+}
+.service__list {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.service__item {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.service__ttl {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 68px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px), print {
+  .service__list {
+    flex-direction: row;
+    gap: 60px;
+  }
+}
+.site-title {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 15.91px;
+}
+.site-title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 105px;
+  bottom: -15.91px;
+  border-top: 3px solid #1F7BC9;
+}
+
+.site-title__ttl {
+  font-family: "Zen Kaku Gothic New";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+.site-title__subttl {
+  font-family: "Cormorant Garamond";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+}

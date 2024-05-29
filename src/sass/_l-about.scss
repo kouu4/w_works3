@@ -1,0 +1,16 @@
+.l-about {
+    margin-top: 125px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80.73px;
+}
+
+@media screen and (min-width: 768px), print {
+    .l-about {
+        margin-top: 155px;
+        padding-bottom: 138px;
+        gap: 77.5px;
+    }
+}

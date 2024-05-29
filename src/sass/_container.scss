@@ -1,0 +1,11 @@
+.container{
+    padding-inline: 30px;
+    max-width: 1080px;
+    margin-inline: auto;
+}
+
+@media screen and (min-width: 1080px), print {
+    .container .container__p-init {
+        margin-inline: -30px;
+    }
+}

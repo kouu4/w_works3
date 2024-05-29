@@ -1,0 +1,30 @@
+.headline-l {
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: $black;
+}
+
+.headline-l__text {
+    display: inline-block;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        border-top: 3px solid $blue;
+    }
+}
+
+.headline-m {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}

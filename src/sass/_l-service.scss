@@ -1,0 +1,27 @@
+.l-service {
+    padding-top: 124.75px;
+    padding-bottom: 97px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    padding-left: calc(50vw - 50%);
+    padding-right: calc(50vw - 50%);
+}
+
+.l-service__content {
+    margin-top: 80.75px;
+}
+
+@media screen and (min-width: 768px), print {
+    .l-service {
+        padding-top: 154.75px;
+        padding-bottom: 140px;
+    }
+
+    .l-service__content {
+        margin-top: 79.75px;
+    }
+    
+}

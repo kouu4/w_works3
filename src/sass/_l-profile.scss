@@ -1,0 +1,14 @@
+.l-profile {
+    padding-top: 125px;
+    padding-bottom: 109px;
+    display: flex;
+    flex-direction: column;
+    gap: 60.5px;
+}
+
+@media screen and (min-width: 768px), print {
+    .l-profile {
+        padding-bottom: 150px;
+        gap: 80.5px;
+    }
+}

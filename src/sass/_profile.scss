@@ -1,0 +1,62 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__ttl {
+    position: relative;
+    margin-top: 47px;
+    text-align: left;
+}
+
+.profile__birthyear {
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: -49px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.profile__text {
+    margin-top: 66px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+@media screen and (min-width: 768px),
+print {
+    .profile {
+        flex-direction: row;
+        align-items: initial;
+        gap: 30px;
+    }
+
+    .profile__portrait {
+        flex: 0 0 300px;
+        margin-top: 50px;
+    }
+
+    .profile__ttl {
+        margin-top: 7px;
+    }
+}
+
+@media screen and (min-width: 1080px),
+print {
+    .profile {
+        gap: 120px;
+    }
+
+    .profile__portrait {
+        flex: 0 0 460px;
+        margin-top: initial;
+    }
+}

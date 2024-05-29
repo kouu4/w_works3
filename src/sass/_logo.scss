@@ -1,0 +1,11 @@
+.logo {
+    width: 19.563vw;
+    height: 20px;
+}
+
+@media screen and (min-width: 768px), print {
+    .logo {
+        width: 10.1895vw;
+        height: 25px;
+    }
+}

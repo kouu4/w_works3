@@ -1,0 +1,33 @@
+@import 'variable';
+
+@import 'about';
+@import 'bg';
+@import 'btn';
+@import 'container';
+@import 'footer';
+@import 'head';
+@import 'headline';
+@import 'l-about';
+@import 'l-fv';
+@import 'l-profile';
+@import 'l-service';
+@import 'logo';
+@import 'profile';
+@import 'service';
+@import 'site-title';
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+img{
+    // display: block;
+    max-width: 100%;
+}
